@@ -1,0 +1,26 @@
+header {
+    height: 10vh;
+}
+
+section, iframe {
+    height: 90vh;
+}
+
+iframe {
+    border-style: none;
+    width: 100%
+}
+
+h1 {
+    text-align: center;
+}
+
+.reminderBox {
+    width: 95%;
+    height: 30vh;
+    background-color: black;
+}
+
+#icon {
+    width: 20%;
+}
