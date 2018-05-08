@@ -15,16 +15,37 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    margin-top: 5vh;
+}
+
 .reminderBox {
     width: 95%;
-    height: 30vh;
-    background-color: aliceblue;
+    background-color: #AAAAAA;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
     border-radius: 5px;
 }
 
+.overflowDiv {
+    overflow: auto;
+}
+
+.flexBox {
+    display: flex;
+    justify-content: space-between;
+}
+
 #icon {
+    margin-right: 10%;
     width: 20%;
+    float: left;
+}
+
+#checkMark {
+    margin-top: 5vh;
+    margin-left: 5%;
+    width: 10%;
+    float: left;
 }

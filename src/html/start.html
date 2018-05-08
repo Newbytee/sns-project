@@ -5,13 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../reset.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="../style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>meep</title>
 </head>
 <body>
-    <div class="reminderBox">
-        <div><img id="icon" src="http://www.clipartbest.com/cliparts/dc6/Gp8/dc6Gp8oc9.gif"></div>
-        <h2>Gå till bussen</h2>
+    <div class="container" class="reminderBox">
+        <div class="overflowDiv">
+            <img id="icon" src="http://www.clipartbest.com/cliparts/dc6/Gp8/dc6Gp8oc9.gif">
+            <h2>Gå till bussen</h2>
+        </div>
+        <div class="flexBox">
+            <div style="display:flex;justify-content:center;align-items:center;">
+                <img id="checkMark" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Checkmark_green.svg/2000px-Checkmark_green.svg.png">
+                <h2>Gjort?</h2>
+            </div>
+            <div id="yesButton">hello</div>
+        </div>
     </div>
 </body>
 </html>
