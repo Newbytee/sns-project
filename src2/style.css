@@ -1,0 +1,88 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+section {
+    margin-top: 5vh;
+    background-color: aliceblue;
+    border-radius: 15px;
+    /*padding: 5vh;*/
+    padding: 2vh 5vh 7vh;
+    height: 25vh;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.timerField {
+    font-size: 400%;
+}
+
+#breakLineInvis, #breakLine {
+    height: 5px;
+    margin: auto;
+}
+
+#breakLine {
+    width: 95%;
+    background-color: black;
+}
+
+#infoDiv {
+    height: 20vh;
+}
+
+#confirmDiv {
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+#bus {
+    width: 15%;
+    float: left;
+    margin-right: 5%;
+}
+
+#wrapper {
+    width: 60%;
+    margin: auto;
+}
+
+#yesDiv, #noDiv, #okayDiv {
+    color: white;
+    display: block;
+    text-decoration: none;
+    height: 5vh;
+    width: 10%;
+}
+
+#okayText {
+    margin-top: 2.5vh;
+}
+
+#yesDiv {
+    background-color: #00AA00;
+}
+
+#noDiv {
+    background-color: #AA0000;
+}
+
+#okayDiv {
+    background-color: #00AA00;
+}
+
+#doneDiv {
+    margin-top: -3.5vh;
+    height: 5vh;
+    width: 10%;
+    font-size: 4vh;
+}

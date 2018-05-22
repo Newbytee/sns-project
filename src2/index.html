@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Förstasida</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+        <h1>Påminnelser</h1>
+        </header>
+        <div id="breakLine"></div>
+        <section class="">
+            <div id="infoDiv">
+                <img id="bus" src="http://www.clipartbest.com/cliparts/dc6/Gp8/dc6Gp8oc9.gif">
+                <h2>Gå till bussen om 10 minuter</h2>
+            </div>
+            <div id="breakLineInvis"></div>
+            <div id="confirmDiv">
+                <div id="doneDiv">
+                    <p class="centerText">Gjort?</p>
+                </div>
+                <a onclick="changePage(2); startTimer(1, 5);" id="yesDiv">
+                    <p class="centerText">Ja</p>
+                </a>
+                <a onclick="changePage(1); startTimer();" id="noDiv">
+                    <p class="centerText">Nej</p>
+                </a>
+            </div>
+        </section>
+        <section>
+            <h2>Dags att börja förbereda dig!</h2>
+            <div id="okayDiv">
+                <p id="okayText" class="centerText">Okej</p>
+            </div>
+            <div>
+                <p class="timerField">10:0</p>
+            </div>
+        </section>
+        <section>
+            <h2>Bra! Nu är det bara att vänta.</h2>
+            <p class="timerField">10:0</p>
+        </section>
+        <section>
+            <p>hi</p>
+        </section>
+    </div>
+</body>
+</html>

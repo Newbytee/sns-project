@@ -28,13 +28,22 @@ h2 {
     border-radius: 5px;
 }
 
+.confirmationBox {
+    
+}
+
+.doneThing {
+    display: flex;
+}
+
 .overflowDiv {
     overflow: auto;
 }
 
-.flexBox {
-    display: flex;
-    justify-content: space-between;
+.yesDiv {
+    background-color: #00FF00;
+    height: 50px;
+    width: 50px;
 }
 
 #icon {
