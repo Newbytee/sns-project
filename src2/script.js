@@ -1,6 +1,8 @@
 "use strict";
 
-let pages = document.getElementsByTagName("section");
+const pages = document.getElementsByTagName("section");
+let img = "http://www.clipartbest.com/cliparts/dc6/Gp8/dc6Gp8oc9.gif";
+let text = "Dags att gå till bussen!";
 
 function changePage(page) {
     for (let i = 0; i < pages.length; i++) {
@@ -27,10 +29,23 @@ function startTimer(timerId = 0, minutes = 10) {
         }
         timerParagraph[timerId].innerHTML = `${minutes}:${secondsString}`;
         if (minutes === 0) { 
-            clearInterval(interval)
+            clearInterval(interval);
             timerParagraph[timerId].innerHTML = `0:00`;
         }
     }, 1000);
 }
 
 changePage(0);
+
+Notification.requestPermission().then(function(result) {
+    console.log(result);
+});
+
+setTimeout(function() {
+    let reminderNotif = new Notification("Påminnelse", { body: text, icon: img });
+    reminderNotif.onclick = function() {
+        window.focus();
+        //window.open(window.location.href);
+        reminderNotif.close();
+    };
+}, 10000);
