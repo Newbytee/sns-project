@@ -18,6 +18,14 @@ section {
     height: 25vh;
 }
 
+.buttonDiv {
+    color: white;
+    display: block;
+    text-decoration: none;
+    height: 5vh;
+    width: 10%;
+}
+
 .centerText {
     text-align: center;
 }
@@ -56,18 +64,6 @@ section {
     margin: auto;
 }
 
-#yesDiv, #noDiv, #okayDiv {
-    color: white;
-    display: block;
-    text-decoration: none;
-    height: 5vh;
-    width: 10%;
-}
-
-#okayText {
-    margin-top: 2.5vh;
-}
-
 #yesDiv {
     background-color: #00AA00;
 }
@@ -85,4 +81,9 @@ section {
     height: 5vh;
     width: 10%;
     font-size: 4vh;
+    color: black;
+}
+
+#flexTest {
+    display: flex;
 }

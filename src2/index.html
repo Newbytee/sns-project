@@ -14,27 +14,30 @@
         <h1>Påminnelser</h1>
         </header>
         <div id="breakLine"></div>
-        <section class="">
+        <section>
             <div id="infoDiv">
                 <img id="bus" src="http://www.clipartbest.com/cliparts/dc6/Gp8/dc6Gp8oc9.gif">
                 <h2>Gå till bussen om 10 minuter</h2>
             </div>
             <div id="breakLineInvis"></div>
             <div id="confirmDiv">
-                <div id="doneDiv">
+                <div class="buttonDiv" id="doneDiv">
                     <p class="centerText">Gjort?</p>
                 </div>
-                <a onclick="changePage(2); startTimer(1, 5);" id="yesDiv">
+                <a onclick="changePage(2); startTimer(1, 5);" class="buttonDiv" id="yesDiv">
                     <p class="centerText">Ja</p>
                 </a>
-                <a onclick="changePage(1); startTimer();" id="noDiv">
+                <a onclick="changePage(1); startTimer();" class="buttonDiv" id="noDiv">
                     <p class="centerText">Nej</p>
                 </a>
             </div>
         </section>
         <section>
             <h2>Dags att börja förbereda dig!</h2>
-            <div id="okayDiv">
+            <div class="buttonDiv" id="okayDiv">
+                <div id="flexTest">
+
+                </div>
                 <p id="okayText" class="centerText">Okej</p>
             </div>
             <div>
