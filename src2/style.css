@@ -64,6 +64,13 @@ section {
     margin: auto;
 }
 
+#goodPic {
+    margin-top: 2.5vh;
+    margin-right: 5vw;
+    height: 50%;
+    float: right;
+}
+
 #yesDiv {
     background-color: #00AA00;
 }
