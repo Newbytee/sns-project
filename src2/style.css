@@ -71,16 +71,12 @@ section {
     float: right;
 }
 
-#yesDiv {
+#yesDiv, #okayDiv {
     background-color: #00AA00;
 }
 
 #noDiv {
     background-color: #AA0000;
-}
-
-#okayDiv {
-    background-color: #00AA00;
 }
 
 #doneDiv {
