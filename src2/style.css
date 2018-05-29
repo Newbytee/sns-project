@@ -87,6 +87,11 @@ section {
     float: right;
 }
 
+#crossImg {
+    float: right;
+    width: 20%;
+}
+
 .yesDiv, #okayDiv {
     background-color: #00AA00;
 }
