@@ -71,7 +71,7 @@ section {
     float: right;
 }
 
-#yesDiv {
+#yesDiv, #okayDiv {
     background-color: #00AA00;
 }
 
@@ -79,12 +79,15 @@ section {
     background-color: #AA0000;
 }
 
+<<<<<<< HEAD
 #okayDiv {
     position: relative;
     background-color: #00AA00;
     top: -23px;
 }
 
+=======
+>>>>>>> 4ccfa8f7958e25692b599276ce97030f207c6511
 #doneDiv {
     margin-top: -3.5vh;
     height: 5vh;
