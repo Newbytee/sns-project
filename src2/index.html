@@ -14,43 +14,49 @@
         <h1>Påminnelser</h1>
         </header>
         <div id="breakLine"></div>
-        <section>
+        <section> <!-- Intro-sektion -->
             <div id="infoDiv">
                 <img id="bus" src="http://www.clipartbest.com/cliparts/dc6/Gp8/dc6Gp8oc9.gif">
                 <h2>Gå till bussen om 10 minuter</h2>
             </div>
             <div id="breakLineInvis"></div>
             <div id="confirmDiv">
-                <div class="buttonDiv" id="doneDiv">
+                <div class="buttonDiv doneDiv">
                     <p class="centerText">Gjort?</p>
                 </div>
-                <a onclick="changePage(2); startTimer(1, 5);" class="buttonDiv" id="yesDiv">
+                <a onclick="changePage(4);" class="buttonDiv yesDiv">
                     <p class="centerText">Ja</p>
                 </a>
-                <a onclick="changePage(1); startTimer();" class="buttonDiv" id="noDiv">
+                <a onclick="changePage(1); startTimer();" class="buttonDiv noDiv">
                     <p class="centerText">Nej</p>
                 </a>
             </div>
         </section>
-        <section>
+        <section> <!-- Förbereda sig-sektion -->
             <h2>Dags att börja förbereda dig!</h2>
             <div>
                 <p class="timerField">10:0</p>
             </div>
             <div class="buttonDiv" id="okayDiv">
-                <div id="flexTest">
+                <div class="flexTest">
                 </div>
                 <p onclick="changePage(3);" id="okayText" class="centerText">Okej</p>
             </div>
         </section>
-        <section>
+        <section> <!-- Vänta på bussen-sektion -->
             <h2>Bra! Nu är det bara att vänta.</h2>
             <img id="goodPic" src="img/check.png">
             <p class="timerField">10:0</p>
-            <div class="buttonDiv" onclick="window.close();">Stäng app</div>
+            <div class="buttonDiv yesDiv" onclick="closePage();">Stäng app</div>
         </section>
-        <section>
+        <section> <!-- Jag är osäker vad detta ska vara-sektion -->
             <p>hi</p>
+        </section>
+        <section id="stinsSection"> <!-- Fråga om personen ser stins-sektion -->
+            <h2>Kan du se denna?</h2>
+            <img id="stins" src="img/stins.jpg">
+            <div onclick="changePage(2); startTimer(1, 5);" class="buttonDiv yesDiv centerText2"><p class="centerText">Ja</p></div>
+            <div onclick="changePage(2); startTimer(1, 5);" class="buttonDiv noDiv centerText2"><p class="centerText">Nej</p></div>
         </section>
     </div>
 </body>

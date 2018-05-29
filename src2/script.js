@@ -8,6 +8,15 @@ function changePage(page) {
     for (let i = 0; i < pages.length; i++) {
         pages[i].style.display = (i === page) ? "block" : "none";
     }
+    if (page === 4) {
+
+    } else {
+
+    }
+}
+
+function closePage() {
+    window.close();
 }
 
 function startTimer(timerId = 0, minutes = 10) {

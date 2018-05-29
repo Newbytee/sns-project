@@ -30,6 +30,10 @@ section {
     text-align: center;
 }
 
+.centerText2 {
+    line-height: 4vh;
+}
+
 .timerField {
     font-size: 400%;
 }
@@ -37,6 +41,18 @@ section {
 #breakLineInvis, #breakLine {
     height: 5px;
     margin: auto;
+}
+
+#stins {
+    height: 52vh;
+    position: relative;
+    top: -50px;
+    left: 1%;
+    float: right;
+}
+
+#stinsSection {
+    height: 50vh;
 }
 
 #breakLine {
@@ -71,31 +87,27 @@ section {
     float: right;
 }
 
-#yesDiv, #okayDiv {
+.yesDiv, #okayDiv {
     background-color: #00AA00;
 }
 
-#noDiv {
+.noDiv {
     background-color: #AA0000;
 }
 
-<<<<<<< HEAD
 #okayDiv {
     position: relative;
     background-color: #00AA00;
     top: -23px;
 }
 
-=======
->>>>>>> 4ccfa8f7958e25692b599276ce97030f207c6511
-#doneDiv {
+.doneDiv {
     margin-top: -3.5vh;
-    height: 5vh;
     width: 10%;
     font-size: 4vh;
     color: black;
 }
 
-#flexTest {
+.flexTest {
     display: flex;
 }
