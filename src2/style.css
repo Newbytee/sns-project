@@ -80,7 +80,9 @@ section {
 }
 
 #okayDiv {
+    position: relative;
     background-color: #00AA00;
+    top: -23px;
 }
 
 #doneDiv {
