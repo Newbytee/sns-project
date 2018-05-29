@@ -1,22 +1,21 @@
 "use strict";
 
 const pages = document.getElementsByTagName("section");
-let img = "http://www.clipartbest.com/cliparts/dc6/Gp8/dc6Gp8oc9.gif";
-let text = "Dags att gå till bussen!";
+const img = "img/bus.gif";
+const text = "Dags att gå till bussen!";
 
 function changePage(page) {
     for (let i = 0; i < pages.length; i++) {
         pages[i].style.display = (i === page) ? "block" : "none";
     }
-    if (page === 4) {
-
-    } else {
-
-    }
 }
 
 function closePage() {
     window.close();
+}
+
+function openPhone() {
+    window.open("https://img.gadgethacks.com/img/74/84/63633655937000/0/best-way-record-calls-your-oneplus-3-3t.w1456.jpg", "", "width=500,height=880,left=800,top=50");
 }
 
 function startTimer(timerId = 0, minutes = 10) {

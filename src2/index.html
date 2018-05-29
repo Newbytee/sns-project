@@ -37,26 +37,33 @@
             <div>
                 <p class="timerField">10:0</p>
             </div>
-            <div class="buttonDiv" id="okayDiv">
-                <div class="flexTest">
-                </div>
-                <p onclick="changePage(3);" id="okayText" class="centerText">Okej</p>
+            <div class="buttonDiv" style="width: 150px" id="okayDiv">
+                <p onclick="changePage(3);" id="okayText preparedDiv" class="centerText2 centerText">Jag är förberedd</p>
             </div>
         </section>
         <section> <!-- Vänta på bussen-sektion -->
             <h2>Bra! Nu är det bara att vänta.</h2>
             <img id="goodPic" src="img/check.png">
             <p class="timerField">10:0</p>
-            <div class="buttonDiv yesDiv" onclick="closePage();">Stäng app</div>
+            <div class="buttonDiv yesDiv centerText2" onclick="closePage();"><p class="centerText">Stäng app</p></div>
         </section>
-        <section> <!-- Jag är osäker vad detta ska vara-sektion -->
-            <p>hi</p>
+        <section> <!-- Fråga om personen har börjat gå -->
+            <h2>Har du börjat gå?</h2>
+            <div onclick="changePage(4)" class="buttonDiv yesDiv centerText2"><p class="centerText">Ja</p></div>
+            <div onclick="changePage(5)" class="buttonDiv noDiv centerText2"><p class="centerText">Nej</p></div>
         </section>
         <section id="stinsSection"> <!-- Fråga om personen ser stins-sektion -->
             <h2>Kan du se denna?</h2>
             <img id="stins" src="img/stins.jpg">
             <div onclick="changePage(2); startTimer(1, 5);" class="buttonDiv yesDiv centerText2"><p class="centerText">Ja</p></div>
-            <div onclick="changePage(2); startTimer(1, 5);" class="buttonDiv noDiv centerText2"><p class="centerText">Nej</p></div>
+            <div onclick="changePage(5);" class="buttonDiv noDiv centerText2"><p class="centerText">Nej</p></div>
+        </section>
+        <section> <!-- Ring föräldrar-sektion -->
+            <h2>Du missade bussen</h2>
+            <p>Ring dina föräldrar</p>
+            <div onclick="openPhone();" class="buttonDiv yesDiv centerText2"><p class="centerText">Öppna telefon</p></div>
+        </section>
+        <section>
         </section>
     </div>
 </body>
