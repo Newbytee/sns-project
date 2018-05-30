@@ -49,11 +49,11 @@ Notification.requestPermission().then(function(result) {
     console.log(result);
 });
 
-setTimeout(function() {
+/*setTimeout(function() {
     let reminderNotif = new Notification("Påminnelse", { body: text, icon: img });
     reminderNotif.onclick = function() {
         window.focus();
         //window.open(window.location.href);
         reminderNotif.close();
     };
-}, 10000);
+}, 10000);*/
