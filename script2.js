@@ -1,3 +1,6 @@
+const img = "img/bus.gif";
+const text = "Dags att gå till bussen!";
+
 setTimeout(function() {
     let reminderNotif = new Notification("Påminnelse", { body: text, icon: img });
     reminderNotif.onclick = function() {
