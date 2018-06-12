@@ -1,8 +1,6 @@
 "use strict";
 
 const pages = document.getElementsByTagName("section");
-const img = "img/bus.gif";
-const text = "Dags att gå till bussen!";
 
 function changePage(page) {
     for (let i = 0; i < pages.length; i++) {
